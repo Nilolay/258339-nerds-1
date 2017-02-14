@@ -10,8 +10,106 @@ body {
     color: #000000;
     line-height: 30px;
 }
-.container {
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main {
     width: 1160px;
     margin: 0px auto;
     padding: 0px 20px;
+}
+.main__left {
+	float: left;
+}
+.main__right {
+	float: right;
+}
+.border {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red; 
+}
+
+.logo {
+    width: 300px;
+}
+.top-nav__list{
+    width: 860px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.top-nav__list :nth-child(n) {
+    display: inline-block;
+}
+.catalog-list {
+	padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.catalog-list :nth-child(n) {
+    display: inline-block;
+    width: 300px;
+    margin-right: 100px;
+}
+.catalog-list :last-child {
+    margin-right: 0px;
+}
+.disc {
+    width: 660px;
+}
+.stat {
+    width: 380px;
+}
+.partners :nth-child(n) {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+.partners :last-child {
+    margin-right: 0px;
+}
+.filter {
+    width: 300px;
+}
+.goods {
+    width: 760px;
+}
+.catalog {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.catalog :nth-child(n) {
+    float: left;
+    width: 360px;
+    margin-right: 40px;
+}
+.catalog :nth-child(2n) {
+    margin-right: 0px;
+}
+.catalog-nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.catalog-nav :nth-child(n) {
+    float: left;
+    margin-right: 10px;
+}
+.map-text {
+    width: 232px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    padding-left: 44px;
+    padding-right: 44px;
+    background-color: #ffffff;
 }
