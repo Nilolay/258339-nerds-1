@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>Каталог</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -21,8 +22,8 @@
 		  </ul>
 		</div>
 	</nav>
-	<header class="header main">
-		<h1>Магазин готовых шаблонов</h1>
+	<header class="header">
+    <div class="main header__h1"><h1 >Магазин готовых шаблонов</h1></div>
 	</header>
 	<main class="main clearfix">
 		<form class="filter main__left" action="" method="post">
@@ -49,11 +50,11 @@
 			<div class="sort clearfix">
               <h4 class="main__left">Сортировать:</h4>
               <div class="main__right">
-                <a href="#">По цене</a>
+                <a class="activated">По цене</a>
                 <a href="#">По типу</a>
                 <a href="#">По названию</a>
-                <a href="#" class="arrow  arrow--bottom">Вниз</a>
-                <a href="#" class="arrow  arrow--top">Вверх</a>
+                <a href="#" class="arrow  arrow--bottom activated"></a>
+                <a href="#" class="arrow  arrow--top"></a>
               </div>
       </div>
             <ul class="catalog clearfix">
@@ -65,7 +66,7 @@
                   </div>
                   <img src="img/sedona.jpg" width="360px" height="576px">
                   <div class="catalog__over">
-                      <b>Sedonna</b>
+                      <b>Sedona</b>
                       <p>Информационный сайт для туристов</p>
                       <a class="btn" href="">9 900 руб</a>
                   </div>
@@ -105,7 +106,7 @@
                   <img src="img/mishka.jpg" width="360px" height="576px">
                   <div class="catalog__over">
                       <b>MISHKA</b>
-                      <p>Интернет магазин вязанных игрушек.</p>
+                      <p>Интернет-магазин вязанных игрушек</p>
                       <a class="btn" href="">9 900 руб</a>
                   </div>
               </li>
@@ -137,7 +138,7 @@
               </li>
             </ul>
             <ul class="catalog-nav clearfix">
-                <li><a href="#">1</a></li>
+                <li class="activated"><a>1</a></li>
                 <li><a href="#">2</a></li>
                 <li><a href="#">3</a></li>
                 <li><a href="#">Следующая</a></li>
@@ -157,11 +158,11 @@
 	<footer class="footer">
   		<div class="main  clearfix">
   			<div class="main__left">
-  				<a href="" class="social"></a>
-  				<a href="" class="social"></a>
-  				<a href="" class="social"></a>
+  				<a href="#" class="social vk"></a>
+  				<a href="#" class="social fb"></a>
+  				<a href="#" class="social inst"></a>
   			</div>
-  			<div class="main__left">
+  			<div class="main__left discount">
   				<strong>Давайте дружить, это выгодно!</strong>
   				<p>Скидка 10% для друзей из социальных сетей.</p>
   			</div>
